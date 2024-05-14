@@ -1,0 +1,171 @@
+:root {
+    --verde:#9ed033;
+  }
+  
+
+.flexContenedorVertical{
+   display: flex;
+   flex-direction: column;
+   margin: 7px;
+}
+
+.flexContenedor{
+   display: flex;
+   justify-content: center;
+   
+}
+
+.imgFlexContenedor{
+   height: 100px;
+   width: 220px;
+   
+}
+
+.flexContenedorArriba{
+   margin-top: 10px;
+   margin-left: 0px;
+   align-items: flex-start;
+
+}
+
+.configDiv1Textos{
+   color: white  ;
+   background-color: #9ed033;
+   text-align: center;
+   justify-content: center;
+   height: 60px;
+   width: 270px;
+
+}
+
+.configDiv2Blanco{
+
+  align-items: center;
+  background-color: white;
+  position: relative;
+  height: 310px;
+  width: 350px;
+  left: -8.6%;
+  margin: 12%;
+  margin-top: 15%;
+
+}
+
+/*.configDiv3{
+
+   background-color: #5b620c;
+}*/
+
+.configDiv4Rojo{
+
+   display: flex;
+   background-color: #d84b4a;
+   color: #ffffff;
+   justify-content: center;
+   align-items: center;
+   height: 60px;
+   width: 130px;
+   margin: 20px;
+   font-size: large;
+   
+}
+
+.configP1{
+   color: var(--verde) ;
+
+}
+
+.configP2{
+   color: red;
+   margin-top: -5%;
+
+}
+
+.configP3{
+ 
+   color: gray;
+   text-align: center;
+
+}
+
+
+.divEncabezadoPadre{
+   display: flex;
+   justify-content: center;
+   margin-top: 0%;
+
+}
+
+.divFondoImagen{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   background-position: initial;
+   background-size: cover;
+   background-image: url("../recursos/imagenes/fondo.jpg");
+   width: 100%;
+   height: 100%;
+
+}
+
+.divEncabezadoHijoDerecho{
+   display: flex;
+   width: 90%;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   background-color: white;
+   margin-top: 6%;
+
+}
+
+
+
+.divEncabezadoHijoDerecho > img{
+   width: 15%;
+   height: 80px;
+   align-items: flex-start;
+
+}
+
+
+nav >a, .divEncabezadoHijoDerecho>a{
+   color: rgb(141, 135, 135);
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: left;
+
+}
+
+.EstiloBotonArriba{
+   color: rgb(255, 255, 255);
+   width: 200px;
+   height: 60px;
+   background-color: #9ed033;
+   margin-bottom: 10px;
+   font-size: large;
+   align-self: center;
+   border: none;
+
+ 
+} 
+
+.EstiloBotonesAbajo{
+   color: rgb(255, 255, 255);
+   width: 270px;
+   height: 50px;
+   background-color: #9ed033;
+   margin-bottom: 60px;
+   font-size: large;
+   align-self: center;
+   border: none;
+
+} 
+
+.flexContenedorAbajo{
+   margin-top: 10px;
+   margin-left: 10px;
+
+}
